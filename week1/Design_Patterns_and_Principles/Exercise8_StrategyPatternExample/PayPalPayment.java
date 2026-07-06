@@ -9,7 +9,7 @@ public class PayPalPayment implements PaymentStrategy {
 
     @Override
     public void pay(double amount) {
-        System.out.println("Authenticating " + username + " with PayPal");
+        System.out.println("Authenticating the " + username + " with PayPal");
         System.out.println("Paid $" + amount + " using PayPal");
     }
 }
